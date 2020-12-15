@@ -4,8 +4,3 @@ resource "null_resource" "this" {
       command = "echo ${var.generic_input}"
     }
 }
-
-module "child" {
-  source = "github.com/hcrhall/terraform-hcrhall-simple"
-  generic_input = "This is child"
-}
