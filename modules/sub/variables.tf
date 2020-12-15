@@ -1,1 +1,0 @@
-variable "generic_input" {}
